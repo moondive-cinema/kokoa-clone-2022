@@ -1,6 +1,7 @@
 @import "reset.css";
 @import "variables.css";
 @import "components/status-bar.css";
+@import "components/screen-headers.css";
 @import "components/navigation.css";
 @import "screens/login.css";
 
