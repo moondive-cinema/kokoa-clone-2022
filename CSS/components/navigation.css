@@ -1,0 +1,44 @@
+.nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #f9f9fa;
+  padding: 20px 50px;
+  box-sizing: border-box;
+  border-top: 1p solid rgba(121, 121, 121, 0.3);
+}
+
+.nav__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__link {
+  color: #2e363e;
+  position: relative;
+}
+
+.nav__chat-noti {
+  display: box;
+  height: 28px;
+  width: 28px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: tomato;
+  font-weight: 600;
+  color: white;
+  position: absolute;
+  left: 15px;
+  bottom: 15px;
+}
+
+.nav__other-noti {
+  color: tomato;
+  font-size: 20px;
+  font-weight: 600;
+  position: absolute;
+  left: 23px;
+  bottom: 12px;
+}
