@@ -1,16 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
 @import "reset.css";
 @import "variables.css";
+
 @import "components/status-bar.css";
 @import "components/screen-headers.css";
 @import "components/navigation.css";
 @import "components/user-component.css";
+
 @import "screens/login.css";
 @import "screens/friends.css";
 
 
 body {
-  color: #2e363e;
+  color: #313941;
   font-family: "Open Sans", "Helvetica Neue";
   height: 1000vh;
+}
+
+.main-screen {
+  padding:0px var(--horizontal-space);
 }
