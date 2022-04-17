@@ -27,41 +27,82 @@
         <h1 class="screen-header__title">Find</h1>
         <div class="screen-header__icon">
             <span><i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
-            <span><i class="fa-regular fa-gear fa-lg"></i></span>
+            <span><i class="fa-regular fa-gear fa-lg"></i>
+                <div class="screen-header__gear-alarm badge-dot"></div>
+            </span>
         </div>
     </header>
 
     <main class="main-screen">
-        <div class="user-component">
-            <div class="user-component__column">
-                <img 
-                    src="https://pbs.twimg.com/profile_images/769233576571367424/ylwuwnh8_400x400.jpg" 
-                    class="user-component__avatar" 
-                />
-                <div class="user-component__text">
-                    <h4 class="user-component__title">Nicolas</h4>
-                    <h6 class="user-component__subtitle">Please check my kokoa account info.</h6>
-                </div>
+        <div class="icon-row">
+            <div class="icon-row__icon">
+                <i class="fa-regular fa-qrcode fa-2x"></i>
+                <span>QR Code</span>
             </div>
-            <div class="user-component__column">
-                <span class="user-component__time">21:09</span>
-                <div class="badge">1</div>
+            <div class="icon-row__icon">
+                <i class="fa-regular fa-address-card fa-2x"></i>
+                <span>Add by Contacts</span>
+            </div>
+            <div class="icon-row__icon">
+                <i class="fa-regular fa-passport fa-2x"></i>
+                <span>Add by ID</span>
+            </div>
+            <div class="icon-row__icon">
+                <i class="fa-regular fa-envelope-open-text fa-2x"></i>
+                <span>Invite</span>
+            </div>
+        </div>
+        <div class="recommended-friends">
+            <h6 class="recommended-friends__title">Recommended Friends</h6>
+            <span>You have no recommended friends.</span>
+        </div>
+        <div class="open-chat">
+            <div class="open-chat__header">
+                <h4>Open Chat</h4>
+                <span>
+                    Go to Openchat Home <i class="fa-regular fa-chevron-right"></i>
+                </span>
+            </div>
+            <div class="open-post">
+                <div class="open-post__column">
+                    <h5 class="open-post__title">#BTS</h5>
+                    <h6 class="open-post__hastags">#bts#army#freidns</h6>
+                    <div class="open-post__members">
+                        <img 
+                            src="https://pbs.twimg.com/profile_images/769233576571367424/ylwuwnh8_400x400.jpg" 
+                        />
+                        <span class="open-post__member-count">802 members</span>
+                        <div class="divider"></div>
+                        <span class="open-post__member-status">Active</span>         
+                    </div>
+                </div>
+                <div class="open-post__column">
+                    <div class="open-post__photo">
+                        <img 
+                            src="https://pbs.twimg.com/profile_images/769233576571367424/ylwuwnh8_400x400.jpg" 
+                        />
+                        <div class="open-post__heart-count">
+                            <i class="fa-solid fa-heart fa-xs"></i>
+                            <span>326</span>
+                        </div>
+                    </div>
+                    
+                </div>
             </div>
         </div>
     </main>
-    
     
     <nav class="nav">
         <ul class="nav__list">
             <li class="nav__btn">
                 <a class="nav__link" href="friends.html">
-                    <i class="fa-regular fa-user fa-2x"></i>
+                    <i class="fa-solid fa-user fa-2x"></i>
                 </a>
             </li>
             <li class="nav__btn">
                 <a class="nav__link" href="chats.html">
-                    <span class="nav__chat-noti badge">1</span>
-                    <i class="fa-solid fa-comment fa-2x"></i>
+                    <span class="nav__chat-noti badge-count">1</span>
+                    <i class="fa-regular fa-comment fa-2x"></i>
                 </a>
             </li>
             <li class="nav__btn">
@@ -71,7 +112,7 @@
             </li>
             <li class="nav__btn">
                 <a class="nav__link" href="more.html">
-                    <span class="nav__other-noti">.</span>
+                    <div class="nav__other-noti badge-dot"></div>
                     <i class="fa-solid fa-ellipsis fa-2x"></i>
                 </a>
             </li>
