@@ -5,7 +5,7 @@
   background-color: #f9f9fa;
   padding: 20px 50px;
   box-sizing: border-box;
-  border-top: 1p solid rgba(121, 121, 121, 0.3);
+  border-top: 1px solid rgba(0, 0, 0,0.05);
 }
 
 .nav__list {
@@ -25,10 +25,7 @@
 }
 
 .nav__other-noti {
-  color: tomato;
-  font-size: 50px;
-  font-weight: 600;
   position: absolute;
-  left: 105%;
-  bottom: 60%;
+  left: 27px;
+  top: -11px;
 }
