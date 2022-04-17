@@ -7,6 +7,7 @@
 @import "components/screen-headers.css";
 @import "components/navigation.css";
 @import "components/user-component.css";
+@import "components/badge.css";
 
 @import "screens/login.css";
 @import "screens/friends.css";
