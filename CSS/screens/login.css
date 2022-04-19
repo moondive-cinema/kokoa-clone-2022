@@ -41,11 +41,11 @@
 }
 
 #login-form input:focus {
-  border-color: var(--yelow);
+  border-color: var(--yellow);
 }
 
 #login-form input[type="submit"] {
-  background-color: var(--yelow);
+  background-color: var(--yellow);
   cursor: pointer;
   padding: 20px 0px;
   border-radius: 5px;
