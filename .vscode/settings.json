@@ -1,0 +1,9 @@
+{
+    "editor.cursorStyle": "line",
+    "editor.bracketPairColorization.enabled": true,
+    "workbench.colorCustomizations": {
+        
+    
+    },
+    "editor.bracketPairColorization.independentColorPoolPerBracketType": true
+}
