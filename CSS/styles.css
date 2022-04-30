@@ -20,10 +20,11 @@
 @import "screens/chat.css";
 
 
+
 body {
   color: #313941;
   font-family: "Open Sans", "Helvetica Neue";
-  height: 1000vh;
+  height: 500vh;
 }
 
 .main-screen {
