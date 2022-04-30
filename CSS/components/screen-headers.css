@@ -15,6 +15,19 @@
   position: relative;
 }
 
+@keyframes rotateGear {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+
+.screen-header__icon .fa-gear:hover {
+  animation: rotateGear 2s linear infinite;
+}
+
 .screen-header__gear-alarm {
   display: block;
   position: absolute;
